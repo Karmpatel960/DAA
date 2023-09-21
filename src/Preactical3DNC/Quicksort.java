@@ -1,16 +1,31 @@
 package Preactical3DNC;
 
-import java.util.Arrays;
-
 public class Quicksort  {
     static int intr = 0 ;
     public static void main(String[] args) {
-        int[] arr = {5,4,3,2,1};
-        intr++;
-        sort(arr,0,arr.length-1);
-        intr++;
-        System.out.println(Arrays.toString(arr));
-        System.out.println("The total Iteration it has is : " + intr);
+        int[] inputSizes = {5, 10, 20, 30, 40};
+
+        for (int size : inputSizes) {
+            int[] arrWorst = generateWorstCaseArray(size);
+            int[] arrBest = generateBestCaseArray(size);
+            int[] arrAvg = generateArray(size);
+
+            System.out.println("Array size: " + size);
+
+            intr = 0;
+            sort(arrBest, 0, arrBest.length - 1);
+            System.out.println("Quick Sort (Best Case) Iterations: " + intr);
+
+            intr = 0;
+            sort(arrAvg, 0, arrAvg.length - 1);
+            System.out.println("Quick Sort (Average Case) Iterations: " + intr);
+
+            intr = 0;
+            sort(arrWorst, 0, arrWorst.length - 1);
+            System.out.println("Quick Sort (Worst Case) Iterations: " + intr);
+
+            System.out.println();
+        }
 
     }
     static void sort(int[] nums,int low,int high){
@@ -49,5 +64,29 @@ public class Quicksort  {
 
             }
         }
+    }
+
+    static int[] generateWorstCaseArray(int size) {
+        int[] arr = new int[size];
+        for (int i = 0; i < size; i++) {
+            arr[i] = size - i;
+        }
+        return arr;
+    }
+
+    static int[] generateBestCaseArray(int size) {
+        int[] arr = new int[size];
+        for (int i = 0; i < size; i++) {
+            arr[i] = i + 1;
+        }
+        return arr;
+    }
+
+    static int[] generateArray(int size) {
+        int[] arr = new int[size];
+        for (int i = 0; i < size; i++) {
+            arr[i] = (int) (Math.random() * 100);
+        }
+        return arr;
     }
 }

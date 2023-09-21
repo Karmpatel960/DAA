@@ -5,13 +5,33 @@ import java.util.Arrays;
 public class Selectionsort  {
     static int intr = 0 ;
     public static void main(String[] args) {
-        int[] arr = {5,4,3,2,1};
-        intr++;
-        selection(arr);
-        intr++;
-        System.out.println(Arrays.toString(arr));
-        System.out.println("The total Iteration it has is : " + intr);
+        int[] inputSizes = {5, 10, 20, 30, 40};
+
+        for (int size : inputSizes) {
+            int[] arr = generateArray(size);
+            int[] arrCopy = Arrays.copyOf(arr, arr.length);
+
+            System.out.println("Array size: " + size);
+
+            intr = 0;
+            selection(arr);
+            System.out.println("Selection Sort (Worst Case) Iterations: " + intr);
+
+            intr = 0;
+            selection(arrCopy);
+            System.out.println("Selection Sort (Best Case) Iterations: " + intr);
+
+            intr = 0;
+            selection(arr);
+            System.out.println("Selection Sort (Average Case) Iterations: " + intr);
+
+            System.out.println();
+        }
+
+
     }
+
+
 
     static void selection(int[] arr){
         intr++;
@@ -48,4 +68,11 @@ public class Selectionsort  {
         intr++;
         return max;
     }
+        static int[] generateArray(int size) {
+            int[] arr = new int[size];
+            for (int i = 0; i < size; i++) {
+                arr[i] = i + 1;
+            }
+            return arr;
+        }
 }

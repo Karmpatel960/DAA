@@ -6,15 +6,30 @@ import java.util.Scanner;
 public class Mergesort {
     static int intr = 0 ;
     public static void main(String[] args) {
-        intr++;
-        Scanner in = new Scanner(System.in);
-        intr++;
-        int[] arr = {5,6,3,2,1};
-        intr++;
-        arr =  merges(arr);
-        intr++;
-        System.out.println(Arrays.toString(arr));
-        System.out.println("The total Iteration it has is : " + intr);
+        int[] inputSizes = {10, 20, 40, 80, 120};
+
+        for (int size : inputSizes) {
+            int[] arrWorst = generateWorstCaseArray(size);
+            int[] arrBest = generateBestCaseArray(size);
+            int[] arrAvg = generateArray(size);
+
+            System.out.println("Array size: " + size);
+
+            intr = 0;
+            int[] resultBest = merges(arrBest);
+            System.out.println("Merge Sort (Best Case) Iterations: " + intr);
+
+            intr = 0;
+            int[] resultAvg = merges(arrAvg);
+            System.out.println("Merge Sort (Average Case) Iterations: " + intr);
+
+            intr = 0;
+            int[] resultWorst = merges(arrWorst);
+            System.out.println("Merge Sort (Worst Case) Iterations: " + intr);
+
+
+            System.out.println();
+        }
 
     }
     static int[] merges (int[] arr){
@@ -79,5 +94,27 @@ public class Mergesort {
         return mix;
     }
 
+    static int[] generateWorstCaseArray(int size) {
+        int[] arr = new int[size];
+        for (int i = 0; i < size; i++) {
+            arr[i] = size - i;
+        }
+        return arr;
+    }
 
+    static int[] generateBestCaseArray(int size) {
+        int[] arr = new int[size];
+        for (int i = 0; i < size; i++) {
+            arr[i] = i + 1;
+        }
+        return arr;
+    }
+
+    static int[] generateArray(int size) {
+        int[] arr = new int[size];
+        for (int i = 0; i < size; i++) {
+            arr[i] = (int) (Math.random() * 100);
+        }
+        return arr;
+    }
 }

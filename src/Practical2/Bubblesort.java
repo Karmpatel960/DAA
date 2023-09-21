@@ -5,12 +5,30 @@ import java.util.Arrays;
 public class Bubblesort {
     static int intr = 0 ;
     public static void main(String[] args) {
-        int[] arr = {10, 60, 40, 50, 30, 20};
-        intr++;
-        bubblesort(arr);
-        intr++;
-        System.out.println(Arrays.toString(arr));
-        System.out.println("The total Iteration it has is : " + intr);
+
+        int[] inputSizes = {5, 10, 20, 30, 40};
+
+        for (int size : inputSizes) {
+            int[] arrWorst = generateWorstCaseArray(size);
+            int[] arrBest = generateBestCaseArray(size);
+            int[] arrAvg = generateArray(size);
+
+            System.out.println("Array size: " + size);
+
+            intr = 0;
+            bubblesort(arrWorst);
+            System.out.println("Bubble Sort (Worst Case) Iterations: " + intr);
+
+            intr = 0;
+            bubblesort(arrBest);
+            System.out.println("Bubble Sort (Best Case) Iterations: " + intr);
+
+            intr = 0;
+            bubblesort(arrAvg);
+            System.out.println("Bubble Sort (Average Case) Iterations: " + intr);
+
+            System.out.println();
+        }
     }
 
 
@@ -46,5 +64,29 @@ public class Bubblesort {
         }
         intr++;
         System.out.println(count);
+    }
+
+    static int[] generateWorstCaseArray(int size) {
+        int[] arr = new int[size];
+        for (int i = 0; i < size; i++) {
+            arr[i] = size - i;
+        }
+        return arr;
+    }
+
+    static int[] generateBestCaseArray(int size) {
+        int[] arr = new int[size];
+        for (int i = 0; i < size; i++) {
+            arr[i] = i + 1;
+        }
+        return arr;
+    }
+
+    static int[] generateArray(int size) {
+        int[] arr = new int[size];
+        for (int i = 0; i < size; i++) {
+            arr[i] = (int) (Math.random() * 100);
+        }
+        return arr;
     }
 }

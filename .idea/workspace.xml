@@ -2,28 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c290712-e5dd-43d7-a31b-8427a348c24a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAA.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practical1/Binary_search.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practical1/Factorial_Recursive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practical1/Factorial_iterative.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practical1/Fibonacci_Recursive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practical1/Fibonacci_iterative.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practical1/Linear_search.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practical2/Bubblesort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practical2/Insertionsort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practical2/Selectionsort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practical3/Kruskalalgowitharray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practical3/joballocation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practical4/prac43.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practical4/prac44.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Preactical3DNC/Mergesort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Preactical3DNC/Quicksort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practical1/prac14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practical4/Prac41.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practical7/NAIVE_STRING_MATCHER.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practical7/RABIN_KARP_MATCHER.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practical7/STRING_MATCH_FINITE_AUTOMETA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practical2/Bubblesort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practical2/Bubblesort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practical2/Selectionsort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practical2/Selectionsort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practical4/prac43.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practical4/prac43.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Preactical3DNC/Mergesort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Preactical3DNC/Mergesort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Preactical3DNC/Quicksort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Preactical3DNC/Quicksort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,13 +50,13 @@
       <recent name="Practical4" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.prac44">
-    <configuration name="Kruskalalgowitharray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practical3.Kruskalalgowitharray" />
+  <component name="RunManager" selected="Application.Insertionsort">
+    <configuration name="Insertionsort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practical2.Insertionsort" />
       <module name="DAA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practical3.*" />
+          <option name="PATTERN" value="Practical2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +64,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Kruskalsalgo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practical3.Kruskalsalgo" />
+    <configuration name="Mergesort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Preactical3DNC.Mergesort" />
       <module name="DAA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practical3.*" />
+          <option name="PATTERN" value="Preactical3DNC.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,21 +77,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="joballocation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practical3.joballocation" />
-      <module name="DAA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Practical3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="prac43" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practical4.prac43" />
+    <configuration name="Prac41" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practical4.Prac41" />
       <module name="DAA" />
       <extension name="coverage">
         <pattern>
@@ -114,12 +90,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="prac44" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practical4.prac44" />
+    <configuration name="RABIN_KARP_MATCHER" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practical7.RABIN_KARP_MATCHER" />
       <module name="DAA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practical4.*" />
+          <option name="PATTERN" value="Practical7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="prac14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practical1.prac14" />
+      <module name="DAA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practical1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.prac44" />
-        <item itemvalue="Application.prac43" />
-        <item itemvalue="Application.joballocation" />
-        <item itemvalue="Application.Kruskalalgowitharray" />
-        <item itemvalue="Application.Kruskalsalgo (1)" />
+        <item itemvalue="Application.Insertionsort" />
+        <item itemvalue="Application.RABIN_KARP_MATCHER" />
+        <item itemvalue="Application.Prac41" />
+        <item itemvalue="Application.prac14" />
+        <item itemvalue="Application.Mergesort" />
       </list>
     </recent_temporary>
   </component>
