@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c290712-e5dd-43d7-a31b-8427a348c24a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Practical1/prac14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practical4/Prac41.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practical7/NAIVE_STRING_MATCHER.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practical7/RABIN_KARP_MATCHER.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practical7/STRING_MATCH_FINITE_AUTOMETA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AssignmentProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practical4/Prac42.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practical5/Prac51.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practical5/Prac52.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practical5/Prac53.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practical6/Prac61.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practical6/Prac62.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrimeConstruction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practical2/Bubblesort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practical2/Bubblesort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practical2/Selectionsort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practical2/Selectionsort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practical4/prac43.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practical4/prac43.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Preactical3DNC/Mergesort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Preactical3DNC/Mergesort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Preactical3DNC/Quicksort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Preactical3DNC/Quicksort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +26,18 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/.idea/misc.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/.idea/modules.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/.idea/uiDesigner.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DAA.iml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/AssignmentProblem.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Practical2/Selectionsort.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Practical4/Prac41.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Practical4/prac43.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Practical7/NAIVE_STRING_MATCHER.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Practical7/RABIN_KARP_MATCHER.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -50,13 +60,13 @@
       <recent name="Practical4" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Insertionsort">
-    <configuration name="Insertionsort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practical2.Insertionsort" />
+  <component name="RunManager" selected="Application.PrimeConstruction">
+    <configuration name="Prac52" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practical5.Prac52" />
       <module name="DAA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practical2.*" />
+          <option name="PATTERN" value="Practical5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Mergesort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Preactical3DNC.Mergesort" />
+    <configuration name="Prac53" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practical5.Prac53" />
       <module name="DAA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Preactical3DNC.*" />
+          <option name="PATTERN" value="Practical5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Prac41" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practical4.Prac41" />
+    <configuration name="Prac61" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practical6.Prac61" />
       <module name="DAA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practical4.*" />
+          <option name="PATTERN" value="Practical6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RABIN_KARP_MATCHER" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practical7.RABIN_KARP_MATCHER" />
+    <configuration name="Prac62" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practical6.Prac62" />
       <module name="DAA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practical7.*" />
+          <option name="PATTERN" value="Practical6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,26 +113,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="prac14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practical1.prac14" />
+    <configuration name="PrimeConstruction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrimeConstruction" />
       <module name="DAA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Practical1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Insertionsort" />
-        <item itemvalue="Application.RABIN_KARP_MATCHER" />
-        <item itemvalue="Application.Prac41" />
-        <item itemvalue="Application.prac14" />
-        <item itemvalue="Application.Mergesort" />
+        <item itemvalue="Application.PrimeConstruction" />
+        <item itemvalue="Application.Prac62" />
+        <item itemvalue="Application.Prac61" />
+        <item itemvalue="Application.Prac53" />
+        <item itemvalue="Application.Prac52" />
       </list>
     </recent_temporary>
   </component>
