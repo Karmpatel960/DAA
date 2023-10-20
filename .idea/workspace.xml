@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c290712-e5dd-43d7-a31b-8427a348c24a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AssignmentProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practical4/Prac42.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practical5/Prac51.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practical5/Prac52.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practical5/Prac53.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practical6/Prac61.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practical6/Prac62.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrimeConstruction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2c290712-e5dd-43d7-a31b-8427a348c24a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
